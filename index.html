@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Will You Be My Valentine?</title>
+
+<style>
+
+
+</style>
+</head>
+
+<body>
+
+<div class="card" id="ask">
+
+  <!-- CHANGE NAME HERE -->
+  <h2> Will you be my Valentine? 💖</h2>
+
+  <div class="buttons">
+    <button id="yesBtn">Yes</button>
+    <button id="noBtn">No</button>
+    <p>*No* seem to be little shy /- </p>
+  </div>
+
+</div>
+
+<div class="card" id="result">
+  <h2>YAY! 🎉</h2>
+
+  <!-- CHANGE GIF HERE -->
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif">
+
+</div>
+
+<script>
+const noBtn = document.getElementById("noBtn");
+const yesBtn = document.getElementById("yesBtn");
+const ask = document.getElementById("ask");
+const result = document.getElementById("result");
+
+/* Make NO run away */
+noBtn.addEventListener("mouseenter", () => {
+  const x = Math.random() * 400;
+  const y = Math.random() * 160;
+  noBtn.style.left = x + "px";
+  noBtn.style.top = y + "px";
+});
+
+/* YES opens second page */
+yesBtn.addEventListener("click", () => {
+  ask.style.display = "none";
+  result.style.display = "block";
+});
+</script>
+
+</body>
+</html>
