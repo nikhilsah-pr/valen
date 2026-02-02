@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  /* ===== EASY CUSTOMIZATION TAGS ===== */
+  --bg-color: #f7c6d9;        /* background theme */
+  --card-color: #ffffff;     /* card color */
+  --yes-color: #e91e63;      /* YES button color */
+  --text-color: #111;
+}
+
+/* Reset */
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: var(--bg-color);
+}
+
+.card{
+  background: var(--card-color);
+  padding:85px;
+  border-radius:45px;
+  text-align:center;
+  width:px;
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+  p{
+    text-align: last;
+    font-size: 10px;
+  }
+}
+
+h2{
+  color: var(--text-color);
+}
+
+.buttons{
+  margin-top:20px;
+  position:relative;
+  height:80px;
+}
+
+button{
+  padding:5px 30px;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+  font-size:30px;
+}
+
+#yesBtn{
+  background: var(--yes-color);
+  color:white;
+}
+
+#noBtn{
+  position:absolute;
+  right:0;
+}
+
+/* second screen */
+#result{
+  display:none;
+}
+
+img{
+  width:200px;
+  margin-top:15px;
+}
