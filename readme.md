@@ -29,3 +29,18 @@ Perfect for learning DOM events, UI interactions, and having some fun.
 📱 Responsive & lightweight
 
 ❤️ Optional floating hearts & background music
+🛠️ Tech Stack
+
+HTML
+
+CSS
+
+JavaScript
+
+Canvas Confetti
+
+Google Fonts
+
+No frameworks. No build tools. Just pure frontend fun.
+
+📂 Project Structure
