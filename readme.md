@@ -53,4 +53,36 @@ No frameworks. No build tools. Just pure frontend fun.
 
 ▶️ How to Run Locally
 
-Clone the repo:
+Clone the repo: git clone YOUR_REPO_LINK
+Open folder
+
+Double-click index.html
+
+That’s it ✅
+
+💡 Learning Outcomes
+
+DOM manipulation
+
+Mouse events
+
+CSS variables
+
+Simple animations
+
+UI logic
+
+Hosting static websites
+
+Fun micro-interactions
+
+⚠️ Disclaimer
+
+This project is created for fun and learning purposes only 😄
+Use responsibly.
+
+⭐ Support
+
+If you liked this project, feel free to ⭐ the repo!
+
+Made with ❤️ by Nikhil
