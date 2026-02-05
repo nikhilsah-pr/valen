@@ -44,3 +44,13 @@ Google Fonts
 No frameworks. No build tools. Just pure frontend fun.
 
 📂 Project Structure
+/project-folder
+ ├─ index.html
+ ├─ music.mp3 (optional)
+ ├─ images / gifs (optional)
+ └─ README.md
+ Everything lives in a single index.html file.
+
+▶️ How to Run Locally
+
+Clone the repo:
